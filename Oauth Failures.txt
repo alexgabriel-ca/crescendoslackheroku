@@ -1,0 +1,6 @@
+Tests tried to send web hook:
+
+1. Separate file with Node.js code (works) sending to webhook.
+2. Including file and calling it within oauth portion (doesn't work).
+3. Using request directly in the oauth route (doesn't work).
+4. Separate function (within main) which is referenced in oauth (doesn't work).

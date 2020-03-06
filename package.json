@@ -1,0 +1,26 @@
+{
+	"name": "alexgabriel-ca-crescendo",
+	"version": "1.0.0",
+	"description": "Crescendo Messaging App for Heroku",
+	"main": "main.js",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"request": "^2.88.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "node main.js",
+		"dev": "nodemon main.js -e hbs,js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alexgabriel-ca/crescendoheroku.git"
+	},
+	"author": "Alex Gabriel",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/alexgabriel-ca/crescendoheroku/issues"
+	},
+	"homepage": "https://github.com/alexgabriel-ca/crescendoheroku#readme"
+}
